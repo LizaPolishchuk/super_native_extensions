@@ -10,16 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  super_native_extensions: ^0.8.18
+  super_native_extensions: ^0.9.1
   collection: ^1.16.0
-  device_info_plus: ^10.0.1
+  device_info_plus: ^11.5.0
   pixel_snap: ^0.1.1
   flutter_keyboard_visibility: ^6.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

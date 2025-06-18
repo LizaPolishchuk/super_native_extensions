@@ -1,0 +1,2 @@
+/Users/yelyzavetapolishchuk/AndroidStudioProjects/super_native_extensions/super_context_menu/example/android/app/.cxx/Debug/5z3x5u63/x86_64/CMakeFiles/edit_cache.dir
+/Users/yelyzavetapolishchuk/AndroidStudioProjects/super_native_extensions/super_context_menu/example/android/app/.cxx/Debug/5z3x5u63/x86_64/CMakeFiles/rebuild_cache.dir
