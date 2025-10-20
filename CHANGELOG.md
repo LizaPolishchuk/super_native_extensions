@@ -3,6 +3,411 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2024-11-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.9.0-dev.3`](#super_clipboard---v090-dev3)
+ - [`super_drag_and_drop` - `v0.9.0-dev.3`](#super_drag_and_drop---v090-dev3)
+ - [`super_context_menu` - `v0.9.0-dev.3`](#super_context_menu---v090-dev3)
+ - [`super_native_extensions` - `v0.9.0-dev.3`](#super_native_extensions---v090-dev3)
+ - [`super_hot_key` - `v0.9.0-dev.3`](#super_hot_key---v090-dev3)
+ - [`super_keyboard_layout` - `v0.9.0-dev.3`](#super_keyboard_layout---v090-dev3)
+
+---
+
+#### `super_clipboard` - `v0.9.0-dev.3`
+
+#### `super_drag_and_drop` - `v0.9.0-dev.3`
+
+ - **FEAT**: increase hit slop required for dragging on desktop (#463).
+
+#### `super_context_menu` - `v0.9.0-dev.3`
+
+#### `super_native_extensions` - `v0.9.0-dev.3`
+
+ - **FIX**: clipboard read error on wasm (#464).
+
+#### `super_hot_key` - `v0.9.0-dev.3`
+
+ - Bump "super_hot_key" to `0.9.0-dev.3`.
+
+#### `super_keyboard_layout` - `v0.9.0-dev.3`
+
+
+## 2024-10-21
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.9.0-dev.2`](#super_clipboard---v090-dev2)
+ - [`super_drag_and_drop` - `v0.9.0-dev.2`](#super_drag_and_drop---v090-dev2)
+ - [`super_context_menu` - `v0.9.0-dev.2`](#super_context_menu---v090-dev2)
+ - [`super_native_extensions` - `v0.9.0-dev.2`](#super_native_extensions---v090-dev2)
+ - [`super_hot_key` - `v0.9.0-dev.2`](#super_hot_key---v090-dev2)
+ - [`super_keyboard_layout` - `v0.9.0-dev.2`](#super_keyboard_layout---v090-dev2)
+
+---
+
+#### `super_clipboard` - `v0.9.0-dev.2`
+
+#### `super_drag_and_drop` - `v0.9.0-dev.2`
+
+#### `super_context_menu` - `v0.9.0-dev.2`
+
+#### `super_native_extensions` - `v0.9.0-dev.2`
+
+ - **FIX**: workaround for exception when running in test environment (#458).
+
+#### `super_hot_key` - `v0.9.0-dev.2`
+
+ - Bump "super_hot_key" to `0.9.0-dev.2`.
+
+#### `super_keyboard_layout` - `v0.9.0-dev.2`
+
+
+## 2024-10-18
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.9.0-dev.1`](#super_clipboard---v090-dev1)
+ - [`super_drag_and_drop` - `v0.9.0-dev.1`](#super_drag_and_drop---v090-dev1)
+ - [`super_context_menu` - `v0.9.0-dev.1`](#super_context_menu---v090-dev1)
+ - [`super_native_extensions` - `v0.9.0-dev.1`](#super_native_extensions---v090-dev1)
+ - [`super_hot_key` - `v0.9.0-dev.1`](#super_hot_key---v090-dev1)
+ - [`super_keyboard_layout` - `v0.9.0-dev.1`](#super_keyboard_layout---v090-dev1)
+
+---
+
+#### `super_clipboard` - `v0.9.0-dev.1`
+
+ - Bump "super_clipboard" to `0.9.0-dev.1`.
+
+#### `super_drag_and_drop` - `v0.9.0-dev.1`
+
+ - Bump "super_drag_and_drop" to `0.9.0-dev.1`.
+
+#### `super_context_menu` - `v0.9.0-dev.1`
+
+ - Bump "super_context_menu" to `0.9.0-dev.1`.
+
+#### `super_native_extensions` - `v0.9.0-dev.1`
+
+ - Bump "super_native_extensions" to `0.9.0-dev.1`.
+
+#### `super_hot_key` - `v0.9.0-dev.1`
+
+ - Bump "super_hot_key" to `0.9.0-dev.1`.
+
+#### `super_keyboard_layout` - `v0.9.0-dev.1`
+
+ - Bump "super_keyboard_layout" to `0.9.0-dev.1`.
+
+
+## 2024-10-13
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.24`](#super_clipboard---v0824)
+ - [`super_drag_and_drop` - `v0.8.24`](#super_drag_and_drop---v0824)
+ - [`super_context_menu` - `v0.8.24`](#super_context_menu---v0824)
+ - [`super_native_extensions` - `v0.8.24`](#super_native_extensions---v0824)
+ - [`super_hot_key` - `v0.8.24`](#super_hot_key---v0824)
+ - [`super_keyboard_layout` - `v0.8.24`](#super_keyboard_layout---v0824)
+
+---
+
+#### `super_clipboard` - `v0.8.24`
+
+#### `super_drag_and_drop` - `v0.8.24`
+
+#### `super_context_menu` - `v0.8.24`
+
+#### `super_native_extensions` - `v0.8.24`
+
+ - **FIX**: drag crashing on Android 15 (#453).
+
+#### `super_hot_key` - `v0.8.24`
+
+ - Bump "super_hot_key" to `0.8.24`.
+
+#### `super_keyboard_layout` - `v0.8.24`
+
+
+## 2024-10-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.23`](#super_clipboard---v0823)
+ - [`super_drag_and_drop` - `v0.8.23`](#super_drag_and_drop---v0823)
+ - [`super_context_menu` - `v0.8.23`](#super_context_menu---v0823)
+ - [`super_native_extensions` - `v0.8.23`](#super_native_extensions---v0823)
+ - [`super_hot_key` - `v0.8.23`](#super_hot_key---v0823)
+ - [`super_keyboard_layout` - `v0.8.23`](#super_keyboard_layout---v0823)
+
+---
+
+#### `super_clipboard` - `v0.8.23`
+
+ - Bump "super_clipboard" to `0.8.23`.
+
+#### `super_drag_and_drop` - `v0.8.23`
+
+ - Bump "super_drag_and_drop" to `0.8.23`.
+
+#### `super_context_menu` - `v0.8.23`
+
+ - Bump "super_context_menu" to `0.8.23`.
+
+#### `super_native_extensions` - `v0.8.23`
+
+ - **FIX**: workaround for deadlock on iOS 18 (#449).
+
+#### `super_hot_key` - `v0.8.23`
+
+ - Bump "super_hot_key" to `0.8.23`.
+
+#### `super_keyboard_layout` - `v0.8.23`
+
+ - Bump "super_keyboard_layout" to `0.8.23`.
+
+
+## 2024-09-30
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.23-dev.1`](#super_clipboard---v0823-dev1)
+ - [`super_drag_and_drop` - `v0.8.23-dev.1`](#super_drag_and_drop---v0823-dev1)
+ - [`super_context_menu` - `v0.8.23-dev.1`](#super_context_menu---v0823-dev1)
+ - [`super_native_extensions` - `v0.8.23-dev.1`](#super_native_extensions---v0823-dev1)
+ - [`super_hot_key` - `v0.8.23-dev.1`](#super_hot_key---v0823-dev1)
+ - [`super_keyboard_layout` - `v0.8.23-dev.1`](#super_keyboard_layout---v0823-dev1)
+
+---
+
+#### `super_clipboard` - `v0.8.23-dev.1`
+
+#### `super_drag_and_drop` - `v0.8.23-dev.1`
+
+#### `super_context_menu` - `v0.8.23-dev.1`
+
+ - **FEAT**: improve focus interaction with non-native context menu (#442).
+ - **FEAT**(macOS): preliminary support for writing tools (#441).
+
+#### `super_native_extensions` - `v0.8.23-dev.1`
+
+ - **FEAT**(macOS): preliminary support for writing tools (#441).
+
+#### `super_hot_key` - `v0.8.23-dev.1`
+
+ - Bump "super_hot_key" to `0.8.23-dev.1`.
+
+#### `super_keyboard_layout` - `v0.8.23-dev.1`
+
+
+## 2024-09-10
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.22`](#super_clipboard---v0822)
+ - [`super_drag_and_drop` - `v0.8.22`](#super_drag_and_drop---v0822)
+ - [`super_context_menu` - `v0.8.22`](#super_context_menu---v0822)
+ - [`super_native_extensions` - `v0.8.22`](#super_native_extensions---v0822)
+ - [`super_hot_key` - `v0.8.22`](#super_hot_key---v0822)
+ - [`super_keyboard_layout` - `v0.8.22`](#super_keyboard_layout---v0822)
+
+---
+
+#### `super_clipboard` - `v0.8.22`
+
+#### `super_drag_and_drop` - `v0.8.22`
+
+#### `super_context_menu` - `v0.8.22`
+
+ - **FEAT**: export default builder to make it enable for use single brightness (#416).
+
+#### `super_native_extensions` - `v0.8.22`
+
+ - **FIX**: don't panic with thread local AccessError when shutting down (#426).
+
+#### `super_hot_key` - `v0.8.22`
+
+ - Bump "super_hot_key" to `0.8.22`.
+
+#### `super_keyboard_layout` - `v0.8.22`
+
+
+## 2024-09-09
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.21`](#super_clipboard---v0821)
+ - [`super_drag_and_drop` - `v0.8.21`](#super_drag_and_drop---v0821)
+ - [`super_context_menu` - `v0.8.21`](#super_context_menu---v0821)
+ - [`super_native_extensions` - `v0.8.21`](#super_native_extensions---v0821)
+ - [`super_hot_key` - `v0.8.21`](#super_hot_key---v0821)
+ - [`super_keyboard_layout` - `v0.8.21`](#super_keyboard_layout---v0821)
+
+---
+
+#### `super_clipboard` - `v0.8.21`
+
+#### `super_drag_and_drop` - `v0.8.21`
+
+#### `super_context_menu` - `v0.8.21`
+
+#### `super_native_extensions` - `v0.8.21`
+
+ - **FIX**: Avoid adding duplicate listeners for drag-n-drop on the web (#422).
+ - **FIX**: compilation error on web with latest Flutter main (#425).
+
+#### `super_hot_key` - `v0.8.21`
+
+ - Bump "super_hot_key" to `0.8.21`.
+
+#### `super_keyboard_layout` - `v0.8.21`
+
+
+## 2024-08-26
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.20`](#super_clipboard---v0820)
+ - [`super_drag_and_drop` - `v0.8.20`](#super_drag_and_drop---v0820)
+ - [`super_context_menu` - `v0.8.20`](#super_context_menu---v0820)
+ - [`super_native_extensions` - `v0.8.20`](#super_native_extensions---v0820)
+ - [`super_hot_key` - `v0.8.20`](#super_hot_key---v0820)
+ - [`super_keyboard_layout` - `v0.8.20`](#super_keyboard_layout---v0820)
+
+---
+
+#### `super_clipboard` - `v0.8.20`
+
+#### `super_drag_and_drop` - `v0.8.20`
+
+#### `super_context_menu` - `v0.8.20`
+
+#### `super_native_extensions` - `v0.8.20`
+
+ - **FIX**: do not build release binary with nightly (#412).
+ - **FIX**: do not build release binary with nightly (#412).
+
+#### `super_hot_key` - `v0.8.20`
+
+#### `super_keyboard_layout` - `v0.8.20`
+
+
+## 2024-08-08
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`super_clipboard` - `v0.8.19`](#super_clipboard---v0819)
+ - [`super_drag_and_drop` - `v0.8.19`](#super_drag_and_drop---v0819)
+ - [`super_context_menu` - `v0.8.19`](#super_context_menu---v0819)
+ - [`super_native_extensions` - `v0.8.19`](#super_native_extensions---v0819)
+ - [`super_hot_key` - `v0.8.19`](#super_hot_key---v0819)
+ - [`super_keyboard_layout` - `v0.8.19`](#super_keyboard_layout---v0819)
+
+---
+
+#### `super_clipboard` - `v0.8.19`
+
+#### `super_drag_and_drop` - `v0.8.19`
+
+#### `super_context_menu` - `v0.8.19`
+
+#### `super_native_extensions` - `v0.8.19`
+
+ - **FIX**: do not build release binary with nightly (#412).
+ - **FIX**: panic in ANSI branch of extract_drop_files (#404).
+ - **FIX**: synthesize_button_up might cause crash on Linux (#394).
+
+#### `super_hot_key` - `v0.8.19`
+
+ - Bump "super_hot_key" to `0.8.19`.
+
+#### `super_keyboard_layout` - `v0.8.19`
+
+
 ## 2024-07-24
 
 ### Changes

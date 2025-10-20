@@ -7,10 +7,13 @@
 #![allow(clippy::arc_with_non_send_sync)]
 // TODO(knopp): Fine grained way to prevent dead code warnings in code that is not used on all platforms.
 #![allow(dead_code)]
+// TODO(knopp): Remove once supported on stable
+#![allow(clippy::needless_lifetimes)]
 
 use std::ffi::c_void;
 
 use ::log::debug;
+use clipboard_events_manager::GetClipboardEventManager;
 use clipboard_reader::GetClipboardReader;
 use clipboard_writer::GetClipboardWriter;
 use context::Context;
@@ -26,6 +29,7 @@ use reader_manager::GetDataReaderManager;
 
 mod api_model;
 mod blur;
+mod clipboard_events_manager;
 mod clipboard_reader;
 mod clipboard_writer;
 mod context;
@@ -94,6 +98,7 @@ impl DataTransferPlugin {
         context.keyboard_map_manager();
         context.hot_key_manager();
         context.menu_manager();
+        context.clipboard_event_manager();
         DataTransferPlugin { _context: context }
     }
 }

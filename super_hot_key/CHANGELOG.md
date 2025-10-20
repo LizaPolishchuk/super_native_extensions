@@ -1,3 +1,41 @@
+## 0.9.0-dev.3
+
+ - Bump "super_hot_key" to `0.9.0-dev.3`.
+
+## 0.9.0-dev.2
+
+ - Bump "super_hot_key" to `0.9.0-dev.2`.
+
+## 0.9.0-dev.1
+
+ - Bump "super_hot_key" to `0.9.0-dev.1`.
+
+## 0.8.24
+
+ - Bump "super_hot_key" to `0.8.24`.
+
+## 0.8.23
+
+ - Bump "super_hot_key" to `0.8.23`.
+
+## 0.8.23-dev.1
+
+ - Bump "super_hot_key" to `0.8.23-dev.1`.
+
+## 0.8.22
+
+ - Bump "super_hot_key" to `0.8.22`.
+
+## 0.8.21
+
+ - Bump "super_hot_key" to `0.8.21`.
+
+## 0.8.20
+
+## 0.8.19
+
+ - Bump "super_hot_key" to `0.8.19`.
+
 ## 0.8.18
 
  - Bump "super_hot_key" to `0.8.18`.

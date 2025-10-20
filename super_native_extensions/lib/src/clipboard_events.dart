@@ -1,6 +1,6 @@
 import 'data_provider.dart';
 import 'native/clipboard_events.dart'
-    if (dart.library.js) 'web/clipboard_events.dart';
+    if (dart.library.js_interop) 'web/clipboard_events.dart';
 import 'reader.dart';
 
 abstract class ClipboardReadEvent {
@@ -11,7 +11,13 @@ abstract class ClipboardReadEvent {
 }
 
 abstract class ClipboardWriteEvent {
-  void write(List<DataProviderHandle> providers);
+  bool get isSynchronous;
+  Object beginWrite(); // Returns token
+  void write(Object token, List<DataProviderHandle> providers);
+}
+
+enum TextEvent {
+  selectAll,
 }
 
 abstract class ClipboardEvents {
@@ -32,4 +38,8 @@ abstract class ClipboardEvents {
   void registerCutEventListener(void Function(ClipboardWriteEvent) listener);
 
   void unregisterCutEventListener(void Function(ClipboardWriteEvent) listener);
+
+  void registerTextEventListener(bool Function(TextEvent) listener);
+
+  void unregisterTextEventListener(bool Function(TextEvent) listener);
 }

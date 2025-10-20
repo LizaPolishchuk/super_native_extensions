@@ -131,18 +131,18 @@ impl PlatformDragContext {
         }
     }
 
-    pub unsafe fn synthesize_mouse_up_event(&self) {
+    pub unsafe fn synthesize_mouse_up_event(&self) -> Option<Id<NSEvent>> {
         self.finish_scroll_events();
 
-        if let Some(event) = self.last_mouse_down_event.borrow().as_ref().cloned() {
+        if let Some(original_event) = self.last_mouse_down_event.borrow().as_ref().cloned() {
             #[allow(non_upper_case_globals)]
-            let opposite = match event.r#type() {
+            let opposite = match original_event.r#type() {
                 NSEventType::LeftMouseDown => CGEventType::LeftMouseUp,
                 NSEventType::RightMouseDown => CGEventType::RightMouseUp,
-                _ => return,
+                _ => return None,
             };
 
-            let event = event.CGEvent();
+            let event = original_event.CGEvent();
             let event = CGEventCreateCopy(event);
             CGEventSetType(event, opposite);
 
@@ -153,6 +153,9 @@ impl PlatformDragContext {
             if let Some(window) = window {
                 window.sendEvent(&synthesized);
             }
+            Some(original_event.clone())
+        } else {
+            None
         }
     }
 
@@ -472,9 +475,11 @@ impl PlatformDragContext {
 
 impl Drop for PlatformDragContext {
     fn drop(&mut self) {
-        VIEW_TO_CONTEXT.with(|v| {
-            v.borrow_mut().remove(&*self.view);
-        });
+        VIEW_TO_CONTEXT
+            .try_with(|v| {
+                v.borrow_mut().remove(&*self.view);
+            })
+            .ok();
     }
 }
 

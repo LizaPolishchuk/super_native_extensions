@@ -1,3 +1,47 @@
+## 0.9.0-dev.3
+
+ - **FIX**: clipboard read error on wasm (#464).
+
+## 0.9.0-dev.2
+
+ - **FIX**: workaround for exception when running in test environment (#458).
+
+## 0.9.0-dev.1
+
+ - Bump "super_native_extensions" to `0.9.0-dev.1`.
+
+## 0.8.24
+
+ - **FIX**: drag crashing on Android 15 (#453).
+
+## 0.8.23
+
+ - **FIX**: workaround for deadlock on iOS 18 (#449).
+
+## 0.8.23-dev.1
+
+ - **FEAT**(macOS): preliminary support for writing tools (#441).
+
+## 0.8.22
+
+ - **FIX**: don't panic with thread local AccessError when shutting down (#426).
+
+## 0.8.21
+
+ - **FIX**: Avoid adding duplicate listeners for drag-n-drop on the web (#422).
+ - **FIX**: compilation error on web with latest Flutter main (#425).
+
+## 0.8.20
+
+ - **FIX**: do not build release binary with nightly (#412).
+ - **FIX**: do not build release binary with nightly (#412).
+
+## 0.8.19
+
+ - **FIX**: do not build release binary with nightly (#412).
+ - **FIX**: panic in ANSI branch of extract_drop_files (#404).
+ - **FIX**: synthesize_button_up might cause crash on Linux (#394).
+
 ## 0.8.18
 
  - **FIX**: dragging stuck on web when cancelled too quickly (#398).

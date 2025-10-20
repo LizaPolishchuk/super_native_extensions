@@ -1,3 +1,29 @@
+## 0.9.0-dev.3
+
+ - **FEAT**: increase hit slop required for dragging on desktop (#463).
+
+## 0.9.0-dev.2
+
+## 0.9.0-dev.1
+
+ - Bump "super_drag_and_drop" to `0.9.0-dev.1`.
+
+## 0.8.24
+
+## 0.8.23
+
+ - Bump "super_drag_and_drop" to `0.8.23`.
+
+## 0.8.23-dev.1
+
+## 0.8.22
+
+## 0.8.21
+
+## 0.8.20
+
+## 0.8.19
+
 ## 0.8.18
 
 ## 0.8.17
