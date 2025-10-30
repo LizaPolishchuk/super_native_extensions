@@ -262,7 +262,6 @@ class DesktopContextMenuWidget extends StatelessWidget {
             );
             return completer.future;
           },
-          writingToolsConfiguration: null,
         );
         final res = await menuContext.showContextMenu(request);
         onHideMenu.value = res;
